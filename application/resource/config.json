@@ -1,0 +1,33 @@
+{
+  "testItems":[
+    {"itemName": "traceability",     "itemInfo":"Traceability info",        "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "lcd_mire",         "itemInfo":"LCD mire",                 "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "lcd_black",        "itemInfo":"LCD black",                "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "lcd_greychart",    "itemInfo":"LCD greychart",            "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "lcd_graylevel",    "itemInfo":"LCD graylevel",            "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "lcd_white",        "itemInfo":"LCD white",                "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "backlight",        "itemInfo":"LCD backlight",            "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "key",              "itemInfo":"Keyboard",                 "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "camera",           "itemInfo":"Camera",                   "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "camera_front",     "itemInfo":"Camera front",             "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "flash_led",        "itemInfo":"Flash led",                "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "audio",            "itemInfo":"Audio elements",           "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "accessories",      "itemInfo":"Accessories",              "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "fm",               "itemInfo":"FM radio",                 "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "nfc",              "itemInfo":"NFC",                      "autoTest":[{"testFlag":"false"}], "manuTest":[{"testFlag":"false"}] },
+    {"itemName": "usb",              "itemInfo":"Charging & USB",           "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "charger_led",      "itemInfo":"Charger LED",              "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "sim",              "itemInfo":"SIM",                      "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "sdcard",           "itemInfo":"Micro SD card",            "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "vibrate",          "itemInfo":"Vibrator",                 "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "gsensor",          "itemInfo":"G-sensor",                 "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "gps",              "itemInfo":"GPS",                      "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "proximity_sensor", "itemInfo":"Proximity Sensor",         "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "light_sensor",     "itemInfo":"Light Sensor",             "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "bluetooth",        "itemInfo":"Bluetooth",                "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "wifi",             "itemInfo":"Wi-Fi",                    "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "battery",          "itemInfo":"Battery",                  "autoTest":[{"testFlag":"true"}],  "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "dialer",           "itemInfo":"CALL",                     "autoTest":[{"testFlag":"false"}], "manuTest":[{"testFlag":"true"}]  },
+    {"itemName": "factory_reset",    "itemInfo":"Factory reset",            "autoTest":[{"testFlag":"false"}], "manuTest":[{"testFlag":"true"}]  }
+  ]
+}

@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  /* XXX: The below overflow property is being ignored by B2G Phone
+     https://bugzilla.mozilla.org/show_bug.cgi?id=777672
+  */
+  overflow: hidden;
+}
+
+.panel {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  -moz-transition: -moz-transform 0.3s ease;
+  top: 0;
+}
+
+/* When create 'test' in classList of body*/
+body.test .panel /*(1)*/{
+  -moz-transform: translateX(-100%);
+}
+
+/*no 'test' in classList of body*/
+#main-panel {
+  -moz-transform: translateX(0);
+  -moz-transition: -moz-transform 0.3s ease;
+}
+
+#test-panel {
+  -moz-transform: translateX(100%);
+  -moz-transition: -moz-transform 0.3s ease;
+}
+
+body.test #test-panel {
+  -moz-transform: translateX(0);
+}
+
+body.test #main-panel {
+  -moz-transform: translateX(-100%);
+}
+
+#test-iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: #888;
+  color: #fff;
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+}
+/*****(1)*****/
+/*
+*body.test .panel
+* CSS Nested (descendant) selectors, in this example, take effect when body has class "test"
+*/
+
+#result-text {
+  height: calc(100% - 70px);
+  overflow: scroll;
+}
+
+#result-text p {
+  margin: 0;
+  padding: 0;
+}
+
+#result-text p.false {
+  color: red;
+}

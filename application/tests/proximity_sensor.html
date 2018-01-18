@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+  <title>Proximity-Sensor Test</title>
+  <link rel="stylesheet" type="text/css" href="../style/testitem.css"/>
+  <style type="text/css">
+  #info {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: -moz-calc(50% + 10px);
+    text-align: center;
+  }
+  </style>
+</head>
+
+<body>
+  <div id="title">Proximity-Sensor</div>
+  <div id="centertext">Please shadow the sensor</div>
+
+  <div id="info">
+    <div id="far">far: not tested</div>
+    <div id="near">near: not tested</div>
+  </div>
+
+  <!--the following are just temp buttons, for simulating proximity sensor event.-->
+  <div style="position: absolute;top:-moz-calc((100% - 120px)" hidden>
+    <button id="temp_far" onclick="farClick();">far</button>
+    <button id="temp_near" onclick="nearClick();">near</button>
+  </div>
+  <!--temp buttons end.-->
+
+</body>
+
+  <script type="text/javascript" src="../js/testitem.js"></script>
+  <script type="text/javascript" src="../js/proximity_sensor.js"></script>
+</html>

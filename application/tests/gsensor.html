@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+  <title>G-Sensor Test</title>
+  <link rel="stylesheet" type="text/css" href="../style/testitem.css"/>
+  <style type="text/css">
+ /*note: the absolute position is according to content.*/
+  .dirText {
+    font-size: 10px;
+    color: #000;
+  }
+  /*-------------------------------------*/
+  #up {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 10px;
+  }
+  #upPic {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: -moz-calc((100% - 80px)/2);
+  }
+  #upText {
+    position: absolute;
+    width: 100%;
+    top: -moz-calc(8px + 80px);
+    text-align: center;
+  }
+  /*-------------------------------------*/
+  #down {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: -moz-calc(10px + 160px);
+  }
+  #downPic {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: -moz-calc((100% - 80px)/2);
+  }
+  #downText {
+    position: absolute;
+    width: 100%;
+    top: -moz-calc(8px + 80px);
+    text-align: center;
+  }
+  /*-------------------------------------*/
+  #left {
+    position: absolute;
+    width: -moz-calc(50% - 40px);
+    height: 120px;
+    top: -moz-calc(10px + 80px);
+    left: 0;
+  }
+  #leftPic {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 0;
+  }
+  #leftText {
+    position: absolute;
+    top: -moz-calc(1px + 80px);
+    right: 40px;
+  }
+  /*-------------------------------------*/
+  #right {
+    position: absolute;
+    width: -moz-calc(50% - 40px);
+    height: 120px;
+    top: -moz-calc(10px + 80px);
+    right: 0;
+  }
+  #rightPic {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 0;
+  }
+  #rightText {
+    position: absolute;
+    top: -moz-calc(1px + 80px);
+    left: 40px;
+  }
+  /*-------------------------------------*/
+  #faceup {
+    position: absolute;
+    width: 50%;
+    height: 80px;
+    top: 10px;
+    left: 0;
+  }
+  #faceupPic {
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    right: 0;
+  }
+  #faceupText {
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
+  }
+  /*-------------------------------------*/
+  #facedown {
+    position: absolute;
+    width: 50%;
+    height: 80px;
+    top: 10px;
+    right: 0;
+  }
+  #facedownPic {
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    left: 0;
+  }
+  #facedownText {
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+  }
+  </style>
+</head>
+
+<body>
+  <div id="title">GSENSOR</div>
+
+  <div id="content" style="background: #fff;">
+    <div id="up">
+      <img id="upPic" src="../style/images/GSensor/UP.png" alt="up and towards up" />
+      <div id="upText" class="dirText">put the handset face up and towards up</div>
+    </div>
+    
+    <div id="down">
+      <img id="downPic" src="../style/images/GSensor/DOWN.png" alt="down" />
+      <div id="downText" class="dirText">DOWN</div>
+    </div>
+
+    <div id="left">
+      <img id="leftPic" src="../style/images/GSensor/LEFT.png" alt="left" />
+      <div id="leftText" class="dirText">LEFT</div>
+    </div>
+
+    <div id="right">
+      <img id="rightPic" src="../style/images/GSensor/RIGHT.png" alt="right" />
+      <div id="rightText" class="dirText">RIGHT</div>
+    </div>
+
+    <div id="faceup">
+      <img id="faceupPic" src="../style/images/GSensor/FaceUp.png" alt="face up" />
+      <div id="faceupText" class="dirText">face up</div>
+    </div>
+
+    <div id="facedown">
+      <img id="facedownPic" src="../style/images/GSensor/FaceDown.png" alt="face down" />
+      <div id="facedownText" class="dirText">face down</div>
+    </div>
+  </div>
+
+  <div id="finished">
+    <div id="centertext">All positions checked.</div>
+  </div>
+</body>
+  <script type="text/javascript" src="../js/orientation.js"></script>
+  <script type="text/javascript" src="../js/testitem.js"></script>
+  <script type="text/javascript" src="../js/gsensor.js"></script>
+</html>
+
+
